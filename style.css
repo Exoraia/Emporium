@@ -1,0 +1,80 @@
+body {
+    font-family: "Inter";
+    background-color: #232323;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: -5px -20px;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.Login {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 8px;
+    
+    color:#FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero {
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+   margin-bottom: 50px;
+}
+
+.topup {
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+    flex-wrap:wrap;
+    font-size: 18px;
+}
+
+.items > a > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 180px;
+}
+
+.items img{
+    border-radius: 20px;
+}
+
