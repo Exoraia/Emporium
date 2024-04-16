@@ -1,6 +1,6 @@
 body {
     font-family: "Inter";
-    background-color: #232323;
+    background-color: #00000f;
     color: #FFFFFF;
     margin-left: 20px;
     margin-right: 20px;
@@ -188,4 +188,8 @@ nav {
     flex-direction: row;
     padding: 10px;
     gap: 15px;
+}
+
+.heroapk img{
+    border-radius: 20px;
 }
