@@ -6,6 +6,42 @@ body {
     margin-right: 20px;
 }
 
+h1{
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 29px;
+    margin: 0;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -63,6 +99,7 @@ nav {
     gap: 50px;
     flex-wrap:wrap;
     font-size: 18px;
+    margin-top: 30px;
 }
 
 .items > a > div{
@@ -78,3 +115,77 @@ nav {
     border-radius: 20px;
 }
 
+.apk{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tab ML*/
+.heroapk{
+    margin-top: 50px;
+    gap: 25px;
+    display: flex;
+}
+
+.cobaanhidup{
+    display:flex;
+    flex-direction: column;
+}
+
+.cobaanhidup > h2, .cobaanhidup > h3{
+    margin-block: 0px;
+}
+
+.kategori{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.tokengame{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-self: flex-start;
+    background-color: rgb(81, 157, 182);
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.price{
+    background-color: rgb(41, 41, 41);
+    padding: 12px;
+    border: 1px solid white;
+    border-bottom-right-radius: 20px;
+}
+
+.tokengame > img{
+    object-fit: contain;
+}
+
+.whatsapp{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 2px solid white;
+    align-self: flex-end;
+    border-radius: 20px;
+}
+
+.whatsapp > *{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 15px;
+}
