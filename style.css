@@ -90,15 +90,15 @@ nav {
 }
 
 .topup {
-    margin-left: 70px;
     font-size: 20px;
 }
 
 .items{
+    justify-content: center;
     display: flex;
     gap: 50px;
     flex-wrap:wrap;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 30px;
 }
 
