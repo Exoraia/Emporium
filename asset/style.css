@@ -128,12 +128,12 @@ nav {
     display: flex;
 }
 
-.cobaanhidup{
+.bio{
     display:flex;
     flex-direction: column;
 }
 
-.cobaanhidup > h2, .cobaanhidup > h3{
+.bio > h2, .bio > h3{
     margin-block: 0px;
 }
 
@@ -156,16 +156,18 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5px;
-    align-self: flex-start;
-    background-color: rgb(81, 157, 182);
+    align-self: stretch;
+    background-color: #54C2C3;
+    color: rgb(255, 255, 255);
     padding: 5px;
     padding-right: 10px;
+    align-items: center;
 }
 
 .price{
-    background-color: rgb(41, 41, 41);
+    background-color: #221E1F;
     padding: 12px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-bottom-right-radius: 20px;
 }
 
